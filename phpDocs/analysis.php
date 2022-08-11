@@ -1,5 +1,5 @@
 <?php include 'connection.php';?>
-                   <table border="1" class="analysisTable">
+                   <table border="1" ; style="font-size:70%" class="analysisTable">
                         <tr>
                             <th class="analysisTableCol"><abbr title="Sample Date">Date</abbr></th>
                             <!-- <th class="analysisTableCol"><abbr title="Heterotrophic Plate count (Cfu/1ml)">HPC</abbr></th>

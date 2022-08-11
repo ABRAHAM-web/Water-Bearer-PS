@@ -27,7 +27,7 @@
           <div>
             <!-- <h3 class="float-md-start mb-0"><img src="image\WaterBearerTransparent.png">Water~Bearer</h3> -->
             <nav class="nav nav-masthead justify-content-center float-md-center">
-              <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#"><img src="image\WaterBearerTransparent.png">Water~Bearer Prepared Still Water and Ice</a>
+              <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Water~Bearer Prepared Still</a>
               <!-- <a class="nav-link fw-bold py-1 px-0" href="#">Products</a>
               <a class="nav-link fw-bold py-1 px-0" href="#">Analysis</a>
               <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a> -->
@@ -77,10 +77,24 @@
             <div class="carousel-item active">
               <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
               <!-- <img src="pic_trulli.jpg" alt="Italian Trulli"> -->
+              <img src="image/firstCarouselTransparent500.png" alt="Italian Trulli">
+
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>WELCOME</h1>
+                  <p>TDS < 5</p>
+                  <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+              <!-- <img src="pic_trulli.jpg" alt="Italian Trulli"> -->
               <img src="image/10LiterQuickserver500x500.jpeg" alt="Italian Trulli">
 
               <div class="container">
-                <div class="carousel-caption text-start">
+                <div class="carousel-caption">
                   <h1>10 Liter re-fill bottles</h1>
                   <p>'High quality and light weight 10 liter water bottles filled with pure prepared still water for only R160 '.</p>
                   <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p> -->
@@ -103,25 +117,12 @@
 
             <div class="carousel-item">
               <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
-                <img src="image/foto1.png" alt="Water Bottles">
+                <img src="image/WaterDeliveriesWBNoLogoTransparentGimp.png" alt="Water Bottles">
 
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>PET Bottles</h1>
-                  <p>500ml, 7l and 10l PET bottle products available</p>
-                  <!-- <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
-                <img src="image/foto2.png" alt="Water Bottles">
-
-              <div class="container">
-                <div class="carousel-caption text-end">
-                  <h1>PET Bottles</h1>
-                  <p>500ml, 7l and 10l PET bottle products available</p>
+                  <h1>Deliveries</h1>
+                  <p>Prepared refill water delivered to your door</p>
                   <!-- <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
                 </div>
               </div>
@@ -156,28 +157,16 @@
 
             <!-- START THE FEATURETTES -->
 
-            <hr class="featurette-divider">
 
-            <div class="row featurette">
-              <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">Deliveries <span class="text-muted">Save the trip</span></h2>
-                <p class="lead">Have your water containers filled on-site</p>
-              </div>
-              <div class="col-md-5">
-                <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="image/WaterDeliveriesWBNoLogoTransparentGimp.png">
-              </div>
-            </div>
 
             <hr class="featurette-divider">
             <!-- Analysis -->
             <div class="row featurette ">
-              <div class="col-md-7">
+              <div class="col-md-12">
                 <h2 class="featurette-heading fw-normal lh-1">Analysis <span class="text-muted">Water Testing</span></h2>
                 <p class="lead">Water testing done by acredited laboratoriums</p>
               </div>
-
-              <div class="col-md-5">
+              <div class="col-md-12" align="center">
                 <table width="50%">
 
                   <?php include 'phpDocs/analysis.php';?>
